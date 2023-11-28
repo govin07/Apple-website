@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; }
+.navbar .logo img{
+    height: 20px;
+}
+.navbar .nav-icons img{
+    height: 20px;
+    margin-left: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    
+    margin-left: 40px;
+    font-size: 15px;
+}
+.offers {
+    background-color: black;
+    color: aliceblue;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}.offers a{
+    color: blue;
+}
+.back-video video{
+   width: 100%; 
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    background-color: rgb(181, 181, 181);
+    margin-top: 30px;
+
+    
+}
+.services img{
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+
+}
+.services a{
+    color: blue;
+}
+.titles h1{
+    font-size: 40px;
+
+}
+.product img{
+    height:90px ;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+
+}
